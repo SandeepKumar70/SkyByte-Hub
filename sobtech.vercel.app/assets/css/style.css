@@ -15,10 +15,7 @@
     display: block;
     height: 6px;
   }
-  .navbg{
-    background: linear-gradient(to bottom, #2d2d2d, #6a4c16);
-    color: white;
-  }
+ 
 
   /* Wave Animation */
   .wave-hover:hover span {
