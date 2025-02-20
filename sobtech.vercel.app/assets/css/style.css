@@ -1,3 +1,35 @@
+/* navbar start  */
+.header-links li span {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+  }
+
+  .header-links li span::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 2px;
+    left: -4px;
+    right: -4px;
+    display: block;
+    height: 6px;
+  }
+
+  /* Wave Animation */
+  .wave-hover:hover span {
+    display: inline-block;
+    animation: wave 0.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes wave {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-3px); }
+    100% { transform: translateY(3px); }
+  }
+
+/* navbar end  */
+
 .border-btn-wrapper {
     transform: translate(0%, 0%);
 }
