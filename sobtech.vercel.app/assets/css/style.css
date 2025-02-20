@@ -31,6 +31,22 @@
 
 /* navbar end  */
 
+/* hero start  */
+@keyframes spin-fast {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-fast {
+    animation: spin-fast 3s linear infinite;
+}
+
+
+/* hero end  */
 .border-btn-wrapper {
     transform: translate(0%, 0%);
 }
